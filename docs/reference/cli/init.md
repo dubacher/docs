@@ -1,10 +1,5 @@
-Set up your project.
+Set up your project by creating a config file.
 
 ```
-Usage: juno init [options]
-
-Options:
-  -m, --minimal         Skip few prompts and generate a config file with a placeholder satellite ID.
-  -m, --mode            Set env mode. For example production or a custom string. Default is production.
-  -h, --help            Output usage information.
+Alias for: juno config init [options]
 ```

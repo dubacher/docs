@@ -1,11 +1,12 @@
-Handle development tasks like building serverless functions or running a local Internet Computer instance.
+Handle tasks related to the emulator like starting/stopping a local network.
 
 ```
 Usage: juno dev <subcommand> [options]
 
 Subcommands:
-  build               Build your serverless functions. The local server supports live reloading.
-  eject               Scaffold the necessary files to start coding and building functions in your project.
-  start               Start a local Internet Computer network in a container.
-  stop                Stop the local network.
+  start               Alias for juno emulator start.
+  stop                Alias for juno emulator stop.
+  wait                Alias for juno emulator wait.
+  build               Alias for juno functions build.
+  init                Alias for juno functions init.
 ```

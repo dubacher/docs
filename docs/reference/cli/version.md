@@ -1,10 +1,11 @@
-Check the version of the modules and CLI.
+Manage version related tasks.
 
 ```
-Usage: juno init [options]
+Usage: juno version <subcommand>
+
+Subcommands:
+  check                 Configure the weekly version check.
 
 Options:
-  -c, --cli         Check only the version of the CLI.
-  -m, --mode            Set env mode. For example production or a custom string. Default is production.
   -h, --help            Output usage information.
 ```
