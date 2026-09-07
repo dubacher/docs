@@ -1,9 +1,9 @@
-Apply configuration to satellite.
+Manage your project configuration
 
 ```
-Usage: juno config [options]
+Usage: juno config <subcommand> [options]
 
-Options:
-  -m, --mode            Set env mode. For example production or a custom string. Default is production.
-  -h, --help            Output usage information.
+Subcommands:
+  apply               Apply configuration to satellite.
+  init                Set up your project by creating a config file.
 ```
